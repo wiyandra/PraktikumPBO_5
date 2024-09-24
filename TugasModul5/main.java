@@ -1,0 +1,18 @@
+package TugasModul5;
+
+public class main {
+    public static void main (String[] args) {
+        Kucing bleki = new Kucing();
+        bleki.nama = "Bleki Si Kucing Ganas";
+        bleki.jenis = "Kucing Jadi-Jadian";
+        bleki.suara = "Rawrrr";
+        
+        Anjing muso = new Anjing();
+        muso.nama = "Muso Lucu";
+        muso.jenis = "Anjing Chihuhua";
+        muso.suara = "Guk Guk Meow";
+        
+        bleki.tampilkanInfo();
+        muso.tampilkanInfo();
+    }
+}
